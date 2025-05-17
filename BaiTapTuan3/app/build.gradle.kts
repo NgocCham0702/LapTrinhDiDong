@@ -2,15 +2,14 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
-    namespace = "com.example.tuan02"
+    namespace = "com.example.thuchanh1"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.tuan02"
+        applicationId = "com.example.thuchanh1"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -50,7 +49,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.firebase.analytics)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
