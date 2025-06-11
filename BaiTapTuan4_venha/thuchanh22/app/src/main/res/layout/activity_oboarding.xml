@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnboardingActivity">
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:padding="19dp"
+        android:text="Skip"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="18sp" />
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/circle_indicator"
+        android:layout_width="77dp"
+        android:layout_height="62dp"
+        app:ci_drawable="@drawable/bg_circle_blue" />
+
+    <LinearLayout
+        android:id="@+id/layou_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp">
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_button_selector"
+            />
+    </LinearLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_skip"
+        android:layout_marginTop="1dp"
+        android:layout_above="@+id/layou_next">
+    </androidx.viewpager.widget.ViewPager>
+
+</RelativeLayout>
