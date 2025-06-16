@@ -35,6 +35,14 @@ data class Task(
 
     @SerializedName("updatedAt")
     val updatedAt: String,
+
+    // --- THÊM CÁC THUỘC TÍNH NÀY ---
+    // API có thể trả về hoặc không, nên ta cho giá trị mặc định là list rỗng
+    @SerializedName("subtasks")
+    val subtasks: List<Subtask> = emptyList(),
+
+    @SerializedName("attachments")
+    val attachments: List<Attachment> = emptyList()
 )
 
 data class Subtask(
