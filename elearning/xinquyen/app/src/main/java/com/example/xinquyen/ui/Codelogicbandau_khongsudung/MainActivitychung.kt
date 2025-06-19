@@ -1,4 +1,4 @@
-package com.example.xinquyen.ui.ghichu
+package com.example.xinquyen.ui.Codelogicbandau_khongsudung
 
 import android.Manifest
 import android.os.Build

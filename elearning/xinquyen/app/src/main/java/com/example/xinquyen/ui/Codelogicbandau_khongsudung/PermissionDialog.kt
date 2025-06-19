@@ -1,4 +1,4 @@
-package com.example.xinquyen.ViewModel
+package com.example.xinquyen.ui.Codelogicbandau_khongsudung
 
 // PermissionDialog.kt
 import androidx.compose.material3.AlertDialog

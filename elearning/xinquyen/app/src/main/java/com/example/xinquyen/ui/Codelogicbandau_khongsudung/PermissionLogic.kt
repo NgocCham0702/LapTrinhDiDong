@@ -1,8 +1,7 @@
-package com.example.xinquyen.ui.ghichu
+package com.example.xinquyen.ui.Codelogicbandau_khongsudung
 //PermissionLogic.kt
 import androidx.compose.runtime.*
 import androidx.compose.ui.graphics.painter.Painter
-import com.example.xinquyen.ViewModel.PermissionDialog
 import com.google.accompanist.permissions.*
 
 @OptIn(ExperimentalPermissionsApi::class)

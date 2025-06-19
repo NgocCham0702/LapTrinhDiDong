@@ -1,6 +1,6 @@
 package com.example.xinquyen.View
 
-// PermissionRequestScreen.kt
+// PermissionRequestScreen.kt màn hình đầu tiên vào
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Button
@@ -34,7 +34,8 @@ fun PermissionRequestScreen(multiplePermissionsState: MultiplePermissionsState) 
             textAlign = TextAlign.Center
         )
         Spacer(modifier = Modifier.height(16.dp))
-        Button(onClick = { multiplePermissionsState.launchMultiplePermissionRequest() }) {
+        Button(onClick = { multiplePermissionsState.launchMultiplePermissionRequest() })
+        {
             Text("Cấp quyền")
         }
     }

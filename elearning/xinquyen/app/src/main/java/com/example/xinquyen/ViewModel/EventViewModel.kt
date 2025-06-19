@@ -72,7 +72,7 @@ class EventViewModel(application: Application) : AndroidViewModel(application) {
         _userLocation.value = location
         checkIfUserIsInArea()
     }
-
+//kiểm tra xem vị trí hiện tại của người dùng có nằm trong khu vực sự kiện đã được xác định hay không.
     private fun checkIfUserIsInArea() {
         // Không cần viewModelScope.launch ở đây vì các StateFlow đã xử lý luồng
         val eventLoc = _eventLocation.value

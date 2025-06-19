@@ -1,7 +1,6 @@
-package com.example.xinquyen.ui.ghichu
+package com.example.xinquyen.ui.Codelogicbandau_khongsudung
 
 import androidx.lifecycle.ViewModel
-import com.example.xinquyen.Model.PermissionType
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 

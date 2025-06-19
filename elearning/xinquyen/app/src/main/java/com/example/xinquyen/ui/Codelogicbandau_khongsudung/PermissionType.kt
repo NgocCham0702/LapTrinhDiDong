@@ -1,4 +1,4 @@
-package com.example.xinquyen.Model
+package com.example.xinquyen.ui.Codelogicbandau_khongsudung
 
 //PermissionType
 // Định nghĩa các loại quyền để dễ quản lý
